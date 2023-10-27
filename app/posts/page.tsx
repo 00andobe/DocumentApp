@@ -23,7 +23,6 @@ export default function Home() {
         <Link key={post.id} href={`/posts/${post.id}`}>
           <div className="post">
             <h2 className="post-title">{post.title + " by " + post.author}</h2>
-            <div className="post-content" dangerouslySetInnerHTML={{ __html: post.content }} />
           </div>
         </Link>
       ))}
