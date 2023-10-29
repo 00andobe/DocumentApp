@@ -2,6 +2,8 @@
 
 This project involves building a custom system for creating digital documents. The system should allow users to view an overview list of all created documents, create new ones, edit existing documents, and delete documents.
 
+Make sure you have a database with a posts table according to the interface!
+
 ## Getting Started
 
 These are the steps to get started with this NEXT.js project:
