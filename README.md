@@ -24,15 +24,13 @@ These are the steps to get started with this NEXT.js project:
 <summary>Step 4: Add a .env.local file in the root</summary>
   To the file add your credentials which will look something like this:
 
+  ```bash
 MYSQL_HOST= YOUR_KEY_HERE
 MYSQL_PORT= YOUR_KEY_HERE
 MYSQL_DATABASE= YOUR_KEY_HEREoc
 MYSQL_USER= YOUR_KEY_HERE
 MYSQL_PASSWORD= YOUR_KEY_HERE
 NEXT_PUBLIC_TINY_API= YOUR_KEY_HERE
-
-  ```bash
-  npm install
 ```
   <summary>Step 4: Run the Application</summary>
   You can now run the application using the following command:
