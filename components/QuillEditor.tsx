@@ -16,11 +16,11 @@ const QuillEditor = ({ value, onChange }) => {
       onChange={handleEditorChange}
       modules={{
         toolbar: [
-          ["bold", "italic", "underline", "strike"], // Basic formatting options
-          [{ list: "ordered" }, { list: "bullet" }], // Lists
-          [{ align: [] }], // Text alignment
-          [{ header: "1" }, { header: "2" }, "blockquote"], // Headers and blockquotes
-          ["clean"], // Remove formatting
+          ["bold", "italic", "underline", "strike"],
+          [{ list: "ordered" }, { list: "bullet" }],
+          [{ align: [] }], 
+          [{ header: "1" }, { header: "2" }, "blockquote"], 
+          ["clean"], 
           [{ 'color': [] }, { 'background': [] }],   
         ],
       }}

@@ -25,7 +25,7 @@ const PostPage = ({ params }: { params: { id: number } }) => {
     getPosts();
   }, [id]);
 
-  const handleEditClick = (title, content) => {
+  const handleEditClick = (title:any, content:any) => {
     setEditedTitle(title);
     setEditedContent(content);
     setIsEditing(true);
